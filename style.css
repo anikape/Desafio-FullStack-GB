@@ -69,6 +69,11 @@ header {
 
     header {
         width: 100vw;
+        padding-bottom: 2rem;
+    }
+
+    .label-pesquisa {
+        width: 60%;
     }
 
     .container-elementos-header {

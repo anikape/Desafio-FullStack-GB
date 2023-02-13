@@ -127,9 +127,7 @@
 
 @media screen and (max-width: 748px) {
 
-  .rodape {
-    padding: 0;
-  }
+
 
   .cards {
     width: 100vw;
@@ -145,6 +143,10 @@
     flex-direction: column;
   }
 
+  .rodape {
+    padding: 0;
+  }
+
   .mobile {
     display: flex;
     align-items: center;
@@ -155,5 +157,9 @@
 
   .list2 {
     padding-top: 2.5rem;
+  }
+
+  .redes {
+    width: 80%;
   }
 }
