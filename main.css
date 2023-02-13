@@ -127,6 +127,10 @@
 
 @media screen and (max-width: 748px) {
 
+  .rodape {
+    padding: 0;
+  }
+
   .cards {
     width: 100vw;
     margin: 1rem;
@@ -137,7 +141,7 @@
   }
 
   .list1 {
-
+    gap: 0;
     flex-direction: column;
   }
 
