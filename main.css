@@ -55,7 +55,7 @@
   color: white;
   bottom: 0;
   position: relative;
-  margin: 20px auto 0 auto;
+  margin-top: 20px;
   justify-content: space-around;
   align-items: center;
   padding-top: 1rem;
@@ -82,8 +82,6 @@
 
 
 }
-
-
 
 .list2 {
   display: flex;
@@ -123,4 +121,34 @@
 .list3 li {
   padding: .5rem;
   list-style-type: none;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 748px) {
+
+  .cards {
+    width: 100vw;
+    margin: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .list1 {
+
+    flex-direction: column;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .list2 {
+    padding-top: 2rem;
+  }
 }

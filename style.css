@@ -27,7 +27,7 @@ header {
     height: 80px;
     background-color: #FFFFFF;
     display: flex;
-    }
+}
 
 .container-elementos-header {
     width: 1280px;
@@ -61,4 +61,22 @@ header {
 
 ::placeholder {
     color: #FF97D3;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 748px) {
+
+    header {
+        width: 100vw;
+    }
+
+    .container-elementos-header {
+        margin: 0.5rem;
+    }
+
+    .container-elementos-header img {
+        display: none;
+    }
+
 }
