@@ -153,11 +153,6 @@
     width: 100%;
   }
 
-  .list1 {
-    gap: 0;
-    flex-direction: column;
-  }
-
   .rodape {
     padding: 0;
     width: 100%;
@@ -165,14 +160,33 @@
   }
 
   .rodape-container {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    margin: 0.5rem;
   }
 
   .list1 {
-    margin-left: 1rem;
+    width: 100px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 0 0 0.5rem;
+    align-items: center;
   }
+
+  .mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 0 0 0.4rem;
+  }
+
+  .list2 {
+    font-size: 10px;
+    align-items: center;
+  }
+
+
 
   .desenvolve {
     display: none;
@@ -181,26 +195,7 @@
   .desenvolveSimples {
     display: block;
     padding-top: 2rem;
+    width: 44.37px;
   }
 
-  .mobile {
-    width: 33.3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 1rem;
-  }
-
-  .list2 {
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem 2rem;
-  }
-
-  .redes {
-
-    justify-content: center;
-    align-items: center;
-  }
 }

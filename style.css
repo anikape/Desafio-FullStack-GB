@@ -68,17 +68,24 @@ header {
 @media screen and (max-width: 748px) {
 
     header {
-
-        padding-bottom: 2rem;
-    }
-
-    .label-pesquisa {
-        width: 60%;
+        width: 100%;
     }
 
     .container-elementos-header {
-        margin: 0.5rem;
+        width: 100%;
     }
+
+    .titulo-principal {
+        padding: 1rem;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .label-pesquisa {
+        width: 40%;
+    }
+
+
 
     .container-elementos-header img {
         display: none;
