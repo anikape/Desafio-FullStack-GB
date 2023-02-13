@@ -74,6 +74,10 @@
   width: 84.37px;
 }
 
+.desenvolveSimples {
+  display: none;
+}
+
 .desenvolve {
   display: flex;
   width: 196.23px;
@@ -145,21 +149,47 @@
 
   .rodape {
     padding: 0;
+    width: 100%;
+
+  }
+
+  .rodape-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list1 {
+    margin-left: 1rem;
+  }
+
+  .desenvolve {
+    display: none;
+  }
+
+  .desenvolveSimples {
+    display: block;
+    padding-top: 2rem;
   }
 
   .mobile {
+    width: 33, 3%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    margin-left: 1rem;
   }
 
   .list2 {
-    padding-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 2rem;
   }
 
   .redes {
     width: 80%;
+    justify-content: center;
+    align-items: center;
   }
 }
