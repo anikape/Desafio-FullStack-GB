@@ -14,7 +14,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-
+    height: 100vh;
 }
 
 body {
@@ -75,8 +75,5 @@ header {
         margin: 0.5rem;
     }
 
-    .container-elementos-header img {
-        display: none;
-    }
 
 }
