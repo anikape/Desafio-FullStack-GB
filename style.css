@@ -67,6 +67,9 @@ header {
 
 @media screen and (max-width: 748px) {
 
+    body{
+       width: 100vw;}
+
     header {
         width: 100%;
     }
