@@ -54,7 +54,7 @@
   background-color: #FFFFFF;
   color: white;
   bottom: 0;
-  position: relative;
+  position: absolute;
   margin: 20px auto 0 auto;
   justify-content: space-around;
   align-items: center;
