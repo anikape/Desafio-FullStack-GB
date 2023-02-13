@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.cards {
+  margin: 2rem;
+
+}
+
+.card {
+  background: #F5F5F5;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+
+  padding: 1.5rem;
+
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  Width: 328.1px;
+  Height: 210px;
+  Top: 204px;
+  Left: 352px;
+  font-weight: 400;
+  font-Size: 16px;
+  Line-height: 20.8px;
+  margin-bottom: 4rem;
+}
+
+.button {
+
+  width: 138.77px;
+  height: 47.48px;
+  left: 352px;
+  top: 969.99px;
+  border: 1px solid #264FEC;
+  border-radius: 4px;
+  color: #264FEC;
+
+}
+
+.rodape {
+  display: flex;
+  background-color: #FFFFFF;
+  color: white;
+  bottom: 0;
+  position: relative;
+  margin: 20px auto 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.list1 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5rem;
+  align-items: center;
+  gap: 5rem
+}
+
+.list1 img {
+  width: 84.37px;
+}
+
+.desenvolve {
+  display: flex;
+  width: 196.23px;
+  height: 66.42px;
+  padding-top: 1rem;
+
+
+}
+
+
+
+.list2 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+  width: 137px;
+  gap: 1rem;
+
+}
+
+.redes {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+}
+
+
+.list3 {
+  display: flex;
+}
+
+.redes p {
+  padding-top: 1rem;
+}
+
+
+.list3 li {
+  padding: .5rem;
+  list-style-type: none;
+}
