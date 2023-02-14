@@ -142,7 +142,9 @@
 
 @media screen and (max-width: 748px) {
 
-
+  .container {
+    max-width: 100%
+  }
 
   .cards {
     width: 100vw;
@@ -161,22 +163,27 @@
 
   .rodape-container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0.5rem;
+    padding: 1rem;
+    align-items: center;
   }
 
   .list1 {
-    width: 100px;
-    flex-direction: column;
-    padding: 0;
+
+    padding-bottom: 1.5rem;
     margin: 0 0 0 0.5rem;
     align-items: center;
+  }
+
+  .list1 img {
+    width: 60px;
   }
 
   .mobile {
     align-items: center;
     display: flex;
-    flex-direction: column;
     padding: 0;
     margin: 0 0 0 0.4rem;
   }
@@ -184,9 +191,9 @@
   .list2 {
     font-size: 10px;
     align-items: center;
+    flex-direction: row;
+    padding: 2rem;
   }
-
-
 
   .desenvolve {
     display: none;
@@ -194,8 +201,18 @@
 
   .desenvolveSimples {
     display: block;
-    padding-top: 2rem;
-    width: 44.37px;
+    width: 35px;
+  }
+
+  .redes {
+
+    align-items: stretch;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .redes img {
+    width: 20px;
   }
 
 }
